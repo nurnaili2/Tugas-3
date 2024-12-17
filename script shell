@@ -1,0 +1,10 @@
+nurnaili kampus@cloudshell:~/tugas sistem operasi$ nano info system.sh
+nurnaili_kampus@cloudshell:~/tugas sistem operasi$ cat info system.sh
+#!/bin/bash
+#menampilkan waktu saat ini
+echowaktu saat ini: $ {date}
+#menampilkan nama pengguna yang sedang login
+echo pengguna yang sedang login $ (whoami)
+#menampilkan total pengguna disk di sistem
+echo total pengguna disk di sistem"
+df -h grep ^/ #menampilkan informasi disk yang digunakan
